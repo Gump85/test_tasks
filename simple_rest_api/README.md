@@ -19,7 +19,7 @@ python3 app.py
 ```
 curl -u benz:motorwagen -i http://localhost:5000/users
 ```
-2. Получение данных по одному пользователю по id (в URI id необходимо указать целое число
+2. Получение данных по одному пользователю по id (в URI "id" необходимо указать целое число
 начиная с 1)
 ```
 curl -u benz:motorwagen -i http://localhost:5000/users/id
@@ -31,7 +31,7 @@ curl -u benz:motorwagen -i -H "Content-Type: application/json" -X PUT -d '{"fiel
 ```
 4. Добавление пользователя в базу
 ```
-curl -u benz:motorwagen -i -H "Content-Type: application/json" -X POST -d '{"field":"new_data,..."}' http://localhost:5000/users/
+curl -u benz:motorwagen -i -H "Content-Type: application/json" -X POST -d '{"field":"new_data,..."}' http://localhost:5000/users
 ```
 5. удаление пользователя по id (в URI id необходимо указать целое число
 начиная с 1)
