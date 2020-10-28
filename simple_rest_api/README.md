@@ -1,5 +1,5 @@
 # Simple REST API
-Простое приложение на Python + фреймворк Flask + SQLAlchemy, представляющая собой 
+Простое приложение на Python + фреймворк Flask + SQLAlchemy, представляющее собой 
 REST API по работе с сущностью User
 Для защиты приложениея используется basic access authentication со следующими парамерами
 пользователя:
